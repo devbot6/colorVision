@@ -84,9 +84,9 @@ def find_ball(img):
             max_index = i
 
     # Write Image (with bounding box) to file
-    cv2.imwrite('video.jpg', frame)
+    cv2.imwrite('video2.jpg', frame)
 
 if __name__ == '__main__':
     cType.setType("balls")
-    img = cv2.imread('image.jpg')
+    img = cv2.imread('image2.jpg')
     find_ball(img)
